@@ -1,0 +1,38 @@
+body {
+    font-family: Arial,Tahoma, sans-serif;
+    background-color: whitesmoke;
+    list-style: none;
+    text-align: center;
+    line-height: 1.5;
+    width: 800px;
+    margin-left: 100px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recipe {
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    text-align: center;
+    border-style: solid;
+    border-color: gray;
+    width: 500px;
+    height: auto;
+}
+
+div.links a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ol li {
+    padding: 15px;
+}
