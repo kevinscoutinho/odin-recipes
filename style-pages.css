@@ -1,19 +1,35 @@
 body {
     font-family: Arial,Tahoma, sans-serif;
-    background-color: whitesmoke;
+    background-color: #fffff3;
     list-style: none;
     text-align: center;
     line-height: 1.5;
-    width: 800px;
-    margin-left: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 0%;
 }
 
 h1{
     font-family: 'Times New Roman', Times, serif;
+    color: #a77602;
+    align-self: flex-start;
+}
+
+h3, h4 {
+    color: #a77602;
 }
 
 .recipe {
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-right: solid;
+    border-width: 1px;
+    border-color: #b2871a;
+    padding: 20px;
+    width: 850px;
 }
 
 ul {
@@ -23,7 +39,7 @@ ul {
 img {
     text-align: center;
     border-style: solid;
-    border-color: gray;
+    border-color: #b2871a;
     width: 500px;
     height: auto;
 }
@@ -31,8 +47,90 @@ img {
 div.links a{
     text-decoration: none;
     text-transform: uppercase;
+    color: #a77602;
 }
 
 ol li {
     padding: 15px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipes img {
+    width: 100px;
+    height: auto;
+}
+
+.second-column {
+    width: 320px;
+    margin-left: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.other-recipes {
+    width: 300px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #b2871a;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.recipes.second-column .info p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.info {
+    width: 180px;
+    margin-left: 10px;
+}
+
+.recipes a {
+    color: #a77602;
+}
+
+.description, .ingredients, .steps, .nutrition {
+    border-bottom: solid;
+    border-color: #b2871a;
+    border-width: 1px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.recipe img#main-image {
+    align-self: center;
+}
+
+.top {
+    font-size: 20px;
+    color: #a77602;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #b2871a;
+    width: 1231px;
+    height: 100px;
+    text-align: left;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.top a {
+    text-decoration: none;
 }
